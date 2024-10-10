@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/mdbassit/FancySelect@latest/dist/fancyselect.min.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/image/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/image/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/image/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/image/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+    <title>KOVAL$KY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link media="all" rel="stylesheet" href="assets/css/vendor.min.css" />
+    <link media="all" rel="stylesheet" href="assets/css/styles.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="loader js-loader">
+        <div class="loader__wrap">
+          <video src="assets/image/loader.mp4" autoplay muted loop playsinline></video>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__container container">
+          <a href="#home" class="logo js-link-to">
+            <img src="assets/image/logo.svg" alt="Logo" />
+          </a>
+          <nav class="nav js-burger">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a
+                  href="#home"
+                  class="nav__link lng-home js-link-to js-burger-close"
+                  >Home</a
+                >
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#music"
+                  class="nav__link lng-music js-link-to js-burger-close"
+                  >Music</a
+                >
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#about"
+                  class="nav__link lng-about js-link-to js-burger-close"
+                  >About</a
+                >
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#contacts"
+                  class="nav__link lng-contacts js-link-to js-burger-close"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <select class="change-lang">
+            <option value="en" select class="change-lang__item">EN</option>
+            <option value="ua">UA</option>
+          </select>
+          <div class="burger js-burger-open">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="home-section" id="home">
+          <img
+            class="home-section__bg-webp"
+            src="assets/image/01.png"
+            alt="Image"
+          />
+          <img
+            class="home-section__bg-mob"
+            src="assets/image/01-mb.png"
+            alt="Image"
+          />
+          <div class="section-content">
+            <div class="container">
+              <div class="home-section__container">
+                <div class="home-section__body">
+                  <div class="home-section__text">
+                    <p
+                      class="lng-homesection__text"
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                    >
+                      Don't try to force people to listen to what you can write,
+                      but write a track that people<br />
+                      will listen to themselves!
+                    </p>
+                  </div>
+                  <div
+                    class="home-section__aftor"
+                    data-aos="fade-up"
+                    data-aos-duration="1400"
+                  >
+                    <p class="lng-homesection__aftor">
+                      koval$ky - music producer/dj
+                    </p>
+                  </div>
+                  <div class="home-section__links">
+                    <a
+                      href="https://www.instagram.com/djkovalsky/"
+                      class="home-section__link"
+                      target="_blank"
+                      data-aos="zoom-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="300"
+                    >
+                      <img src="assets/image/Insta.svg" alt="Image" />
+                    </a>
+                    <a
+                      href="https://www.tiktok.com/@djkovalsky?_t=8cMetJsuogI&_r=1"
+                      class="home-section__link"
+                      target="_blank"
+                      data-aos="zoom-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="400"
+                    >
+                      <img src="assets/image/TikTok.svg" alt="Image" />
+                    </a>
+                    <a
+                      href="https://www.youtube.com/@djkovalsky"
+                      class="home-section__link"
+                      target="_blank"
+                      data-aos="zoom-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="500"
+                    >
+                      <img src="assets/image/youtube.svg" alt="Image" />
+                    </a>
+                    <a
+                      href="https://www.beatport.com/artist/kovalky/1138965"
+                      class="home-section__link"
+                      target="_blank"
+                      data-aos="zoom-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="600"
+                    >
+                      <img src="assets/image/Vector.svg" alt="Image" />
+                    </a>
+                    <a
+                      href="https://music.apple.com/ru/artist/koval%24ky/1692936971"
+                      class="home-section__link"
+                      target="_blank"
+                      data-aos="zoom-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="700"
+                    >
+                      <img src="assets/image/apple_music.svg" alt="Image" />
+                    </a>
+                    <a
+                      href="https://music.youtube.com/channel/UCwkB6yi3cfdkyFiKHHquGZg?si=oHJofbIcxOe_I_ix"
+                      class="home-section__link"
+                      target="_blank"
+                      data-aos="zoom-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="800"
+                    >
+                      <img
+                        src="assets/image/Youtube_Music_icon 1.svg"
+                        alt="Image"
+                      />
+                    </a>
+                    <a
+                      href="https://open.spotify.com/artist/4R7LVIAfh4fDO8iYTJ1zAT?si=FLprlM2ERSmWsCQOIwPGZg"
+                      target="_blank"
+                      class="home-section__link"
+                      data-aos="zoom-in"
+                      data-aos-duration="1200"
+                      data-aos-delay="900"
+                    >
+                      <img src="assets/image/Spotify_black.svg" alt="Image" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="music-section" id="music">
+          <img
+            class="home-section__bg-webp"
+            src="assets/image/02.png"
+            loading="lazy"
+            alt="Image"
+          />
+          <img
+            class="home-section__bg-mob"
+            src="assets/image/02-mb.png"
+            loading="lazy"
+            alt="Image"
+          />
+          <div class="section-content">
+            <div class="music-section__container container">
+              <div class="music-section__body">
+                <div class="music-section__youtube youtube">
+                  <h2
+                    class="lng-youtube__title youtube__title"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    DJ SETS
+                  </h2>
+                  <div
+                    class="youtube__video"
+                    data-aos="fade-up"
+                    data-aos-duration="1400"
+                  >
+                    <iframe
+                      src="https://www.youtube.com/embed/g5kV9NuCrc4?si=maZFw-8qfOn42qGS"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="youtube__video"
+                    data-aos="fade-up"
+                    data-aos-duration="1600"
+                  >
+                    <iframe
+                      src="https://www.youtube.com/embed/QEw8e9IrGTE?si=0TQPDen3hvs5_Vez"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div
+                  class="music-section__spotify spotify"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <h2 class="lng-tracks spotify__title">TRACKS</h2>
+                  <iframe
+                    style="border-radius: 12px"
+                    src="https://open.spotify.com/embed/artist/4R7LVIAfh4fDO8iYTJ1zAT?utm_source=generator"
+                    frameborder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="bg-section">
+          <img
+            class="home-section__bg-mob"
+            src="assets/image/03-mb.png"
+            loading="lazy"
+            alt="Image"
+          />
+        </div>
+        <section class="about-section" id="about">
+          <img
+            class="home-section__bg-webp"
+            src="assets/image/03.png"
+            loading="lazy"
+            alt="Image"
+          />
+          <img
+            class="home-section__bg-mob"
+            src="assets/image/04-mb.png"
+            loading="lazy"
+            alt="Image"
+          />
+          <div class="section-content">
+            <div class="container">
+              <div class="about-section__container">
+                <div class="about-section__body">
+                  <h1
+                    class="lng-about-section__title about-section__title"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    A little about KOVAL$KY:
+                  </h1>
+                  <div class="about-section__text">
+                    <p
+                      class="lng-about__text1"
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                    >
+                      KOVAL$KY is a promising Ukrainian music producer/DJ,<br />
+                      actively gaining momentum.
+                    </p>
+                    <p
+                      class="lng-about__text2"
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                    >
+                      He writes and publishes his own music.<br />
+                      His music is filled with jagged sounds, elements<br />
+                      of glitches and freezes.
+                    </p>
+                    <p
+                      class="lng-about__text3"
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                    >
+                      He believes that a future without music<br />
+                      is impossible, since it is music that makes people<br />
+                      feel and associate with it the most vivid<br />
+                      emotions and moments of life.<br />
+                      It is emotions and feelings that distinguish<br />
+                      a person from a machine.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contacts-section" id="contacts">
+          <img
+            class="home-section__bg-webp"
+            src="assets/image/04.png"
+            loading="lazy"
+            alt="Image"
+          />
+          <img
+            class="home-section__bg-mob"
+            src="assets/image/05-mb.png"
+            loading="lazy"
+            alt="Image"
+          />
+          <div class="section-content">
+            <div class="container">
+              <div class="contacts-section__container">
+                <div class="contacts-section__body">
+                  <h2
+                    class="lng-contacts-section__title contacts-section__title"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    Contact with DJ / Producer:
+                  </h2>
+                  <div
+                    class="contacts-section__text"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <p class="lng-contacts-text1">
+                      I am happy and open to new things!
+                    </p>
+                    <p class="lng-contacts-text2">
+                      Got an idea? Offer? Let's work together!
+                    </p>
+                    <p class="lng-contacts-text3 contacts-section__email">
+                      EMAIL:
+                      <a href="mailto:kovalskybooking@gmail.com"
+                        ><span>kovalskybooking@gmail.com</span></a
+                      >
+                    </p>
+                    <p class="lng-contacts-text4">Thank you for visiting.</p>
+                    <p class="lng-contacts-text5">
+                      Subscribe on social networks and music platforms so as not
+                      to miss new material and get a good mood.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__links">
+            <a
+              href="https://www.instagram.com/djkovalsky/"
+              target="_blank"
+              class="footer__link"
+            >
+              <img src="assets/image/Insta.svg" alt="Image" />
+            </a>
+            <a
+              href="https://www.tiktok.com/@djkovalsky?_t=8cMetJsuogI&_r=1"
+              target="_blank"
+              class="footer__link"
+            >
+              <img src="assets/image/TikTok.svg" alt="Image" />
+            </a>
+            <a
+              href="https://www.youtube.com/@djkovalsky"
+              target="_blank"
+              class="footer__link"
+            >
+              <img src="assets/image/youtube.svg" alt="Image" />
+            </a>
+            <a
+              href="https://www.beatport.com/artist/kovalky/1138965"
+              target="_blank"
+              class="footer__link"
+            >
+              <img src="assets/image/Vector.svg" alt="Image" />
+            </a>
+            <a
+              href="https://music.apple.com/ru/artist/koval%24ky/1692936971"
+              target="_blank"
+              class="footer__link"
+            >
+              <img src="assets/image/apple_music.svg" alt="Image" />
+            </a>
+            <a
+              href="https://music.youtube.com/channel/UCwkB6yi3cfdkyFiKHHquGZg?si=oHJofbIcxOe_I_ix"
+              target="_blank"
+              class="footer__link"
+            >
+              <img src="assets/image/Youtube_Music_icon 1.svg" alt="Image" />
+            </a>
+            <a
+              href="https://open.spotify.com/artist/4R7LVIAfh4fDO8iYTJ1zAT?si=FLprlM2ERSmWsCQOIwPGZg"
+              target="_blank"
+              class="footer__link"
+            >
+              <img src="assets/image/Spotify_black.svg" alt="Image" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      function hideLoader() {
+        var loader = document.querySelector(".js-loader");
+        loader.classList.add("inactive");
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(hideLoader, 500);
+      });
+
+      window.addEventListener("load", function () {
+        hideLoader();
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/vendor.min.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/mdbassit/FancySelect@latest/dist/fancyselect.min.js"></script>
+    <script src="assets/files/lang.js" defer></script>
+    <script src="assets/files/langs.js" defer></script>
+  </body>
+</html>
